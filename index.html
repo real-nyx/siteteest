@@ -15,9 +15,9 @@
         <div class="secondDiv">
             <label for="text">TELLY'S CRYSTAL CORNER</label> <div class="items">
                 <!--contains icons-->
-                <img src="search (1).jpg" alt="" class="search">
-                <img src="person.png" alt="" class="person">
-                <img src="bag.png" alt="" class="bag">
+                <img src="search (1).jpg" alt="" class="search"> &nbsp
+                <img src="person.png" alt="" class="person"> &nbsp
+                <img src="bag.png" alt="" class="bag">&nbsp
                 <img src="menu.png" alt="" class="menu">
             </div>
         </div>
@@ -31,6 +31,9 @@
         body{
             margin: 0;
             padding: 0;
+            overflow: hidden;
+        }
+        .parent{
             overflow: hidden;
         }
         .firstDiv{
@@ -53,11 +56,16 @@
         width: 20px;
        }
        .logo{
-        width:100%;
-        height: 240px;
+        width:550px;
+        height: 340px;
        }
        .logoDiv{
         padding: 1px 43px;
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
        }
         .search{
             width: 30px;
