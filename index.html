@@ -47,12 +47,16 @@
             padding: 0;
           
         }
-        .thirdDiv span{
-            color: black;
-            font-style: italic;
-            font-weight: bold;
-            color: gray;
-        }
+        .thirdDiv span {
+    font-style: italic;
+    font-weight: bold;
+    color: gray;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 4px auto;
+    max-width: 90%;
+}
+
         .parent{
             overflow: hidden;
         }
@@ -125,6 +129,17 @@
         color: rgb(50, 48, 48);
         font-family: sans-serif;
        }
+       @media (min-width: 300px) {
+    .thirdDiv span {
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 768px) {
+    .thirdDiv span {
+        font-size: 1rem;
+    }
+}
+
     </style>
 </body>
 </html>
